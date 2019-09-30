@@ -35,12 +35,12 @@ const mailOptions = {
 
 // enter your own details here
 const smtpConfig = {
-  host: 'smtp.gmail.com', // replace with yours
+  host: 'smtp.your-mail.com', // replace with yours
   port: 465,
   secure: true, // use SSL
   auth: {
-    user: 'johans.jurie@gmail.com',
-    pass: 'Hierdieismygooglewagwoord.1',
+    user: 'senders@your-mail.com',
+    pass: 'password',
   },
 };
 
@@ -61,7 +61,7 @@ async function getFakeSmtp() {
 
 async function send(options, smtp) {
 /* Only needed if you don't have a real mail account for testing */
-    const fakeSmtp = await getFakeSmtp();
+    // const fakeSmtp = await getFakeSmtp();
     // smtp = fakeSmtp;
 
   let transporter = nodemailer.createTransport(smtp);
