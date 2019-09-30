@@ -1,0 +1,27 @@
+{
+  "name": "nodemailerjs",
+  "version": "1.0.0",
+  "description": "An implementation of the nodemailer package to send images using CIDs.",
+  "main": "main.js",
+  "dependencies": {
+    "nodemailer": "^6.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start" : "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanswanepoel/nodemailerjs.git"
+  },
+  "keywords": [
+    "nodemailer"
+  ],
+  "author": "Johan Swanepoel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanswanepoel/nodemailerjs/issues"
+  },
+  "homepage": "https://github.com/johanswanepoel/nodemailerjs#readme"
+}
